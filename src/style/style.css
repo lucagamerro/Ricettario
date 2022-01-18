@@ -1,0 +1,120 @@
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: none;
+  height: 105vh;
+}
+
+.frecciaGiu {
+  cursor: pointer;
+  filter: invert(99%) sepia(99%) saturate(0%) hue-rotate(47deg) brightness(108%)
+    contrast(101%);
+}
+
+.lista-ricette .card:hover {
+  cursor: pointer;
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+}
+
+.basso {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+.frecciaSu {
+  position: fixed;
+  bottom: 0;
+  right: 27px;
+  margin-bottom: 20px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.button-nuovo {
+  position: fixed;
+  top: 0;
+  right: 28px;
+  margin-top: 16px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.badge:focus {
+  box-shadow: rebeccapurple;
+}
+
+.alfabeto span {
+  cursor: pointer;
+  opacity: 70%;
+}
+.alfabeto span:hover {
+  opacity: 100%;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-trash {
+  cursor: url(https://icons.getbootstrap.com/assets/icons/trash-fill.svg), auto;
+}
+
+.titolo-navigation {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.input-titolo {
+  width: 100%;
+  border-color: transparent;
+  box-shadow: none;
+  font-size: 300%; /* ! che grandezza? 36px? */
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+.input-titolo:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.input-testo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-height: 18em;
+}
+
+.input-tags {
+  box-shadow: none;
+  resize: none;
+  line-height: 20px;
+}
+.input-tags:focus {
+  box-shadow: none;
+}
+
+.toast {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.5);
+}
+.toast:hover {
+  box-shadow: 0 0 18px rgba(0, 0, 0, 0.65);
+}
+
+.height-100 {
+  height: 100%;
+}
+
+footer a {
+  color: grey;
+}
